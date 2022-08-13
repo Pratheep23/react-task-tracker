@@ -1,9 +1,11 @@
-import React from 'react';
-import Header from './components/header.js'
+
+import TaskManager from './components/Overview';
+
 function App() {
+  
   return (
     <div class='container'>
-     <Header />
+      <TaskManager/>
     </div>
   )
 }
